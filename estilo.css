@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 1280px;
+    height: 760px;
+    background: #FFFFFF;
+}
+
+img {
+    position: absolute;
+    width: 431px;
+    height: 661px;
+    left: 233px;
+    top: 51px;
+}
+
+#welcome {
+    position: absolute;
+    width: 473px;
+    height: 298.55px;
+    left: 723px;
+    top: 231px;
+}
+
+#welcome h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 111px;
+    font-weight: bold;
+    line-height: 130px;
+    text-align: center;
+    color: #000000;
+}
