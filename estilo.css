@@ -12,20 +12,19 @@ main {
 
 img {
     position: absolute;
-    width: 431px;
-    height: 600px;
+    width: 420px;
+    height: 555px;
     left: 212px;
     top: 51px;    
-    background:fixed;
     background-repeat: no-repeat;
 }
 
 .welcome {
     position: absolute;
-    width: 473px;
+    width: 470px;
     height: 298.55px;
-    left: 723px;
-    top: 231px;
+    left: 700px;
+    top: 190px;
 }
 
 .welcome h1 {
@@ -35,6 +34,7 @@ img {
     font-size: 111px;
     line-height: 130px;
     text-align: center;
+    color: #000000;
 }
 
 .welcome p {
@@ -47,17 +47,17 @@ img {
     color: #000000;
 }
 
-.retangulo {
+.btn-next2 {
     position: absolute;
     width: 199px;
     height: 35.55px;
     left: 864px;
-    top: 494px;
+    top: 450px;
     background: #3EB25E;
     border-radius: 35px;
 }
 
-.retangulo p {
+.btn-next2 p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -65,4 +65,11 @@ img {
     line-height: 32px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.btn-next2:hover{
+    background: yellow;
+}
+.btn-next2:hover p:hover{
+    color: black;
 }
