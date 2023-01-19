@@ -13,7 +13,7 @@ main {
 img {
     position: absolute;
     width: 420px;
-    height: 555px;
+    height: 600px;
     left: 212px;
     top: 51px;    
     background-repeat: no-repeat;
@@ -58,18 +58,68 @@ img {
 }
 
 .btn-next2 p {
+    line-height: 32px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 32px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
-.btn-next2:hover{
-    background: yellow;
+.btn-next2:hover {
+    background-color: yellow;
 }
-.btn-next2:hover p:hover{
-    color: black;
+
+@media(max-width: 480px){
+    img {
+        position: absolute;
+        width: 271px;
+        height: 416px;
+        left: 59px;
+        top: 56px;
+    }
+    .welcome {
+        position: absolute;
+        width: 264px;
+        height: 70px;
+        left: 108px;
+        top: 497px;
+    }
+    .welcome h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 53px;
+        line-height: 62px;
+        text-align: center;
+        color: #000000;
+    }
+    .welcome p {
+        width: 350px;
+        margin-left: -30px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        padding-top: 1rem;
+    }
+    .btn-next2 {
+        width: 199px;
+        height: 36px;
+        left: 141px;
+        top: 640px;
+        background: #3EB25E;
+        border-radius: 35px;
+    }
+    .btn-next2:hover {
+    background-color: yellow;
+    }
 }
