@@ -178,3 +178,9 @@ a {
     background-color: yellow;
     }
 }
+
+/*Desktop 0*/
+
+.flex-container {
+    display: flex;
+}
