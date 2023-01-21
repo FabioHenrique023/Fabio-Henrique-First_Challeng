@@ -184,3 +184,76 @@ a {
 .flex-container {
     display: flex;
 }
+
+.markets-financial h1 {
+    position: absolute;
+    width: 473px;
+    height: 101px;
+    left: 719px;
+    top: 223px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+}
+
+.motivo-pesquisa {
+    position: absolute;
+    width: 443px;
+    height: 169px;
+    left: 734px;
+    top: 338px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn-start {
+    display: grid;
+    grid-template-columns: 100px 200px;
+}
+
+.btn-home {
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    left: 734px;
+    top: 572px;
+    background: #3EB25E;
+    border-radius: 35px;
+}
+
+.btn-home p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-fill {
+    position: absolute;
+    width: 176px;
+    height: 25px;
+    left: 976px;
+    top: 576px;
+}
+
+.btn-fill p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
