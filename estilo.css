@@ -179,10 +179,19 @@ a {
     }
 }
 
-/*Desktop 0*/
+/*Desktop 1*/
 
 .flex-container {
     display: flex;
+}
+
+#img-start {
+    position: absolute;
+    width: 552.51px;
+    height: 480.01px;
+    left: 87.49px;
+    top: 51px;  
+    background-repeat: no-repeat;
 }
 
 .markets-financial h1 {
@@ -190,11 +199,11 @@ a {
     width: 473px;
     height: 101px;
     left: 719px;
-    top: 223px;
+    top: 123px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 39px;
     line-height: 46px;
     text-align: center;
     color: #000000;
@@ -205,27 +214,22 @@ a {
     width: 443px;
     height: 169px;
     left: 734px;
-    top: 338px;
+    top: 228px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 28px;
     line-height: 33px;
     text-align: center;
     color: #000000;
 }
 
-.btn-start {
-    display: grid;
-    grid-template-columns: 100px 200px;
-}
-
 .btn-home {
     position: absolute;
     width: 199px;
-    height: 36px;
+    height: 30px;
     left: 734px;
-    top: 572px;
+    top: 12.2cm;
     background: #3EB25E;
     border-radius: 35px;
 }
@@ -234,7 +238,7 @@ a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
@@ -242,18 +246,28 @@ a {
 
 .btn-fill {
     position: absolute;
-    width: 176px;
-    height: 25px;
-    left: 976px;
-    top: 576px;
+    width: 198px;
+    height: 30px;
+    left: 960px;
+    top: 12.2cm;
+    background: #3EB25E;
+    border-radius: 35px;
 }
 
 .btn-fill p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.btn-fill:hover, .btn-home:hover{
+    background-color: yellow;
+}
+
+.btn-fill p:hover, .btn-home p:hover{
+    color: black;
 }
