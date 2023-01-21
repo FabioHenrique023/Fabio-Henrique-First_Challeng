@@ -19,8 +19,16 @@
 
     <a href="tela2.html">   
     <div class="btn-next2">
-        <p>Let's go</p>
+        <p id="mudar" onmouseover="mudarOver(this)" onmouseout="normalOver(this)">Let's go</p>
     </div> 
     </a>
+<script>
+    function normalOver() {
+        document.getElementById("mudar").innerHTML="Let's go";
+    }
+    function mudarOver() {
+        document.getElementById("mudar").innerHTML="Just Go Ahead";
+    }
+</script>
 </body>
 </html>

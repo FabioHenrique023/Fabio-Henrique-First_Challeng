@@ -72,6 +72,10 @@ a {
     background-color: yellow;
 }
 
+.btn-next2 p:hover {
+    color: black;
+}
+
 /* Telas Pequenas */
 @media (min-width: 249px) and (max-width: 480px){
     img {
