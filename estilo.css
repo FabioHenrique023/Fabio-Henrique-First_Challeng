@@ -319,7 +319,7 @@ form h3 {
     width: 511px;
     height: 40px;
     left: 731px;
-    top: 283px;
+    top: 6.8cm;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -334,7 +334,7 @@ form h3 {
     width: 324px;
     height: 211px;
     left: 745px;
-    top: 329px;
+    top: 300px;
 }
 
 input[type="radio"] {
@@ -355,17 +355,21 @@ label {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 31px;
     color: #000000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 13.5em 5em;
+    margin-top: 2em;
 }
 
 .btn-tela2 {
     background: #3EB25E;
     border-radius: 35px;
-    /* width: 199px;
-    height: 36px;
-    left: -960px;
-    top: 12.2cm; */
+    width: 198px;
+    height: 28px;
 }
 
 .btn-tela2 p {
@@ -381,10 +385,8 @@ label {
 .btn-next3 {
     background: #3EB25E;
     border-radius: 35px;
-    /* width: 198px;
-    height: 36px;
-    top: 12.2cm;
-    right: 20cm; */
+    width: 198px;
+    height: 28px;
 }
 
 .btn-next3 p {
@@ -397,9 +399,28 @@ label {
     color: #FFFFFF;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
+.btn-skip {
+    width: 418px;
+    height: 28px;
+    background: #3EB25E;
+    border-radius: 35px;
+    margin-top: 1em;
 }
 
+.btn-skip p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-tela2:hover, .btn-next3:hover, .btn-skip:hover{
+    background-color: yellow;
+}
+
+.btn-tela2 p:hover, .btn-next3 p:hover, .btn-skip p:hover{
+    color: black;
+}
