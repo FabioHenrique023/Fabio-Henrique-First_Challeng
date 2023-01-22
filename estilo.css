@@ -342,5 +342,64 @@ input[type="radio"] {
     height: 20px;
     left: 735px;
     top: 340px;
-    background:  rgba(62, 178, 94, 0.3);
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(62, 178, 94, 0.3);
+    border-radius: 50%;
+    margin: 0;
+    place-content: center;
 }
+
+label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.btn-tela2 {
+    background: #3EB25E;
+    border-radius: 35px;
+    /* width: 199px;
+    height: 36px;
+    left: -960px;
+    top: 12.2cm; */
+}
+
+.btn-tela2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-next3 {
+    background: #3EB25E;
+    border-radius: 35px;
+    /* width: 198px;
+    height: 36px;
+    top: 12.2cm;
+    right: 20cm; */
+}
+
+.btn-next3 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
