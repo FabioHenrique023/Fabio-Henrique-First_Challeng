@@ -274,7 +274,7 @@ a {
 
 /*Desktop 2*/
 
-.form-status {
+.status-account {
     position: absolute;
     width: 470px;
     height: 40px;
@@ -282,7 +282,7 @@ a {
     top: 141px;
 }
 
-.form-status h3 {
+.status-account h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -295,20 +295,21 @@ a {
 select {
     box-sizing: border-box;
     position: absolute;
-    width: 450px;
-    height: 52px;
-    left: calc(50% - 459px/2 + 320.5px);
-    top: calc(50% - 10px/2 - 160px);
+    width: 70vh;
+    height: 6%;
+    left: calc(50% - 459px/2 + 285.5px);
+    top: calc(50% - 10px/2 - 140px);
     border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-select option {
+    border-radius: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 27px;
     line-height: 32px;
     text-align: center;
     color: #000000;
+    background: url(img/seta-select.svg) no-repeat center left 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
