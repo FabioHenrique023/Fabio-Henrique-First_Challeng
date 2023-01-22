@@ -313,3 +313,34 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+
+form h3 {
+    position: absolute;
+    width: 511px;
+    height: 40px;
+    left: 731px;
+    top: 283px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.check {
+    position: absolute;
+    width: 324px;
+    height: 211px;
+    left: 745px;
+    top: 329px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    left: 735px;
+    top: 340px;
+    background:  rgba(62, 178, 94, 0.3);
+}
