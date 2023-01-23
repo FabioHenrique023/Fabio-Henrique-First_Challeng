@@ -523,3 +523,66 @@ input[type="checkbox"]:checked {
     color: #000000;
     margin-left: 0.7em;
 }
+
+/*Desktop 4*/
+
+.details-invest{
+    position: absolute;
+    width: 466px;
+    height: 100px;
+    left: 732px;
+    top: 175px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+textarea {
+    box-sizing: border-box;
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    left: 732px;
+    top: 285px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    resize: none;
+}
+
+.group-next {
+    position: absolute;
+    width: 324px;
+    height: 200px;
+    left: 734px;
+    top: 12cm;
+}
+
+
+.btn-skip5 {
+    width: 418px;
+    height: 28px;
+    background: #3EB25E;
+    border-radius: 35px;
+    margin-top: 1em;
+}
+
+.btn-skip5 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-skip5:hover {
+    background-color: yellow;
+}
+
+.btn-skip5 p:hover{
+    color: black;
+}
