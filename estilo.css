@@ -350,6 +350,10 @@ input[type="radio"] {
     place-content: center;
 }
 
+input[type="radio"]:checked {
+    background: #3EB25E;
+}
+
 label {
     font-family: 'Roboto';
     font-style: normal;
@@ -416,6 +420,21 @@ label {
     text-align: center;
     color: #FFFFFF;
 }
+
+
+
+/***********************************************************/
+
+button:disabled {
+    opacity: .4;
+    cursor: default;
+}
+
+button:disabled:hover {
+    background-color: yellow;
+}
+
+/************************************/
 
 .btn-tela2:hover, .btn-next3:hover, .btn-skip:hover{
     background-color: yellow;
