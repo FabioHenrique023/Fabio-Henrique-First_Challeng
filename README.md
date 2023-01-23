@@ -10,7 +10,7 @@ primeiro desafio - programa de bolsas - compasso tecnologia, esse projeto basead
 - `Funcionalidade 1`: Usuário acessa a tela de bem-vindo
 - `Funcionalidade 2`: Usuário tem a opção de selecionar o status da sua conta de investimento
 - `Funcionalidade 3`: Usuário consegue descrever se já teve ou conhece alguém que teve prejuízo com investimento
-- `Funcionalidade 3`: Usuário consegue cadastar o seu nome e e-mail
+- `Funcionalidade 4`: Usuário consegue cadastar o seu nome e e-mail
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -19,7 +19,7 @@ primeiro desafio - programa de bolsas - compasso tecnologia, esse projeto basead
 - ``Paradigma de orientação a objetos``
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/gui-lirasilva/Edige-POO/tree/master/src).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/FabioHenrique023Fabio-Henrique-First_Challeng.git).
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
