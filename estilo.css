@@ -526,16 +526,25 @@ input[type="checkbox"]:checked {
 
 /*Desktop 4*/
 
+#img-four {
+    position: absolute;
+    width: 450px;
+    height: 35em;
+    left: 212px;
+    top: 51px;    
+    background-repeat: no-repeat;
+}
+
 .details-invest{
     position: absolute;
-    width: 466px;
+    width: 35%;
     height: 100px;
     left: 732px;
     top: 175px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     color: #000000;
 }
@@ -557,7 +566,7 @@ textarea {
     width: 324px;
     height: 200px;
     left: 734px;
-    top: 12cm;
+    top: 28.5rem;
 }
 
 
@@ -566,7 +575,7 @@ textarea {
     height: 28px;
     background: #3EB25E;
     border-radius: 35px;
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 .btn-skip5 p {
