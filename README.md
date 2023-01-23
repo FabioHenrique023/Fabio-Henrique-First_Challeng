@@ -14,9 +14,11 @@ primeiro desafio - programa de bolsas - compasso tecnologia, esse projeto basead
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``Java 8``
-- ``InteliJ IDEA``
-- ``Paradigma de orientação a objetos``
+- ``Html 5``
+- ``JavaScript``
+- ``CSS``
+- ``Visual Studio IDEA``
+- ``Layout baseado no Figma``
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/FabioHenrique023Fabio-Henrique-First_Challeng.git).
