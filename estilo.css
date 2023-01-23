@@ -618,12 +618,69 @@ textarea {
     top: 5cm;
 }
 
+.check3 label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 60px;
+    color: #000000;
+}
+
 input[type="text"] {
     display: block;
     box-sizing: border-box;
     position: absolute;
     width: 459px;
     height: 52px;
+    top: 5cm;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 13.5em;
+}
+
+
+.btn-tela5 {
+    background: #3EB25E;
+    border-radius: 35px;
+    width: 418px;
+    height: 28px;
+    margin-top: 1em;
+}
+
+.btn-tela5 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.submit {
+    background: #3EB25E;
+    border-radius: 35px;
+    width: 418px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-top: 1em;
+}
+
+.submit:hover, .btn-tela5:hover{
+    background-color: yellow;
+}
+
+.submit:hover, .btn-tela5 p:hover{
+    color: black;
 }
