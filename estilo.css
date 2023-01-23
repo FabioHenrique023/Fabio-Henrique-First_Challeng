@@ -433,3 +433,21 @@ button:disabled {
 .btn-tela2 p:hover, .btn-next3:hover, .btn-skip p:hover{
     color: black;
 }
+
+/*Desktop 3*/
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    left: 735px;
+    top: 340px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(62, 178, 94, 0.3);
+    margin: 0;
+    place-content: center;
+}
+
+input[type="checkbox"]:checked {
+    background: #3EB25E;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Tela 4</title>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <header>
+            <img src="img/two.svg">
+        </header>
+
+        <section class="status-account">
+            <h3>How do you decide to invest?</h3>
+        </section>
+
+        <form id="form">
+            <select name="account" id="account" onchange="validar()">
+                <option value="" selected disabled name="ativo">Choose a status account</option>
+                <option value="1" name="ativo">I have not created an account yet.</option>
+                <option value="2" name="ativo">Waiting for approve</option>
+                <option value="3" name="ativo">Denied</option>
+                <option value="4" name="ativo">Active</option>
+            </select>
+
+            <h3>What resources have you used or are you using for your training?</h3>
+            <section class="check">
+                <div>
+                    <label for="">
+                        <input type="checkbox" name="market" id="checkdisable" value="1" onchange="validar()">
+                        stock market
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <input type="checkbox" name="market" id="checkdisable" value="2" onchange="validar()">
+                        foreign exchange
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <input type="checkbox" name="market" id="checkdisable" value="3" onchange="validar()">
+                        commodity
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <input type="checkbox" name="market" id="checkdisable" value="4" onchange="validar()">
+                        bond markets
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <input type="checkbox" name="market" id="checkdisable" value="5" onchange="validar()">
+                        cryptocurrency market
+                    </label>
+                </div>
+                <div class="grid-container">
+                    <a href="tela3.html">
+                        <div class="btn-tela2">
+                            <p>Back</p>
+                        </div>
+                    </a>
+
+                    <a href="tela5.html">
+                    <button disabled id="proximo" class="btn-next3" type="button">
+                        Next
+                    </button>
+                    </a>
+
+                    <a href="tela5.html">
+                        <div class="btn-skip">
+                            <p>Skip</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </form>
+    </div>
+    <script src="tela3.js"></script>
+</body>
+
+</html>
