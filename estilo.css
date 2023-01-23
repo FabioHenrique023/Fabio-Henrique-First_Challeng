@@ -319,7 +319,7 @@ form h3 {
     width: 511px;
     height: 40px;
     left: 731px;
-    top: 6.8cm;
+    top: 6.5cm;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -334,7 +334,8 @@ form h3 {
     width: 324px;
     height: 211px;
     left: 745px;
-    top: 300px;
+    top: 290px;
+    line-height: 35px;
 }
 
 input[type="radio"] {
@@ -359,14 +360,12 @@ label {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 31px;
     color: #000000;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 13.5em 5em;
-    margin-top: 2em;
 }
 
 .btn-tela2 {
@@ -374,6 +373,7 @@ label {
     border-radius: 35px;
     width: 198px;
     height: 28px;
+    margin-top: 1em;
 }
 
 .btn-tela2 p {
@@ -395,9 +395,10 @@ label {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    line-height: 26px;
+    margin-top: 1em;
 }
 
 .btn-skip {
@@ -477,34 +478,44 @@ button:disabled {
     width: 502px;
     height: 70px;
     left: 734px;
-    top: 302px;
+    top: 7.3cm;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 30px;
     color: #000000;
 }
 
 .check2 {
     position: absolute;
-    width: 422px;
+    width: auto;
     height: 156px;
     left: 735px;
-    top: 384px;
+    top: 9.3cm;
 
 }
 
 input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     left: 735px;
-    top: 10cm;
     -webkit-appearance: none;
     appearance: none;
     background: rgba(62, 178, 94, 0.3);
+    border-radius: 5px;
 }
 
 input[type="checkbox"]:checked {
     background: #3EB25E;
+}
+
+.check2 label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 0.5em;
 }
