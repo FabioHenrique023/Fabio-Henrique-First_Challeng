@@ -17,51 +17,45 @@
             <img src="img/two.svg">
         </header>
 
-        <section class="status-account">
+        <section class="status-invest">
             <h3>How do you decide to invest?</h3>
         </section>
 
         <form id="form">
-            <select name="account" id="account" onchange="validar()">
-                <option value="" selected disabled name="ativo">Choose a status account</option>
-                <option value="1" name="ativo">I have not created an account yet.</option>
-                <option value="2" name="ativo">Waiting for approve</option>
-                <option value="3" name="ativo">Denied</option>
-                <option value="4" name="ativo">Active</option>
+            <select id="invest">
+                <option value="" selected disabled name="ativo">Investment status</option>
+                <option value="1" name="ativo">I have not invested yet.</option>
+                <option value="2" name="ativo">cryptocurrencies</option>
+                <option value="3" name="ativo">stock Exchange</option>
             </select>
 
-            <h3>What resources have you used or are you using for your training?</h3>
-            <section class="check">
+            <h3 id="training">What resources have you used or are you using for your training?</h3>
+            <section class="check2">
                 <div>
                     <label for="">
                         <input type="checkbox" name="market" id="checkdisable" value="1" onchange="validar()">
-                        stock market
+                        Books and articles
                     </label>
                 </div>
                 <div>
                     <label for="">
                         <input type="checkbox" name="market" id="checkdisable" value="2" onchange="validar()">
-                        foreign exchange
+                        YouTube tutorial videos
                     </label>
                 </div>
                 <div>
                     <label for="">
                         <input type="checkbox" name="market" id="checkdisable" value="3" onchange="validar()">
-                        commodity
+                        online or face to face courses
                     </label>
                 </div>
                 <div>
                     <label for="">
                         <input type="checkbox" name="market" id="checkdisable" value="4" onchange="validar()">
-                        bond markets
+                        experience with little investment
                     </label>
                 </div>
-                <div>
-                    <label for="">
-                        <input type="checkbox" name="market" id="checkdisable" value="5" onchange="validar()">
-                        cryptocurrency market
-                    </label>
-                </div>
+            
                 <div class="grid-container">
                     <a href="tela3.html">
                         <div class="btn-tela2">
@@ -84,7 +78,6 @@
             </section>
         </form>
     </div>
-    <script src="tela3.js"></script>
+    <script src="tela4.js"></script>
 </body>
-
 </html>

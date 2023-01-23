@@ -296,11 +296,11 @@ select {
     box-sizing: border-box;
     position: absolute;
     width: 70vh;
-    height: 6%;
+    height: 5%;
     left: calc(50% - 459px/2 + 285.5px);
     top: calc(50% - 10px/2 - 140px);
     border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 12px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -308,7 +308,7 @@ select {
     line-height: 32px;
     text-align: center;
     color: #000000;
-    background: url(img/seta-select.svg) no-repeat center left 5px;
+    background: url(img/seta-select.svg) no-repeat center left 6px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -436,16 +436,73 @@ button:disabled {
 
 /*Desktop 3*/
 
+.status-invest {
+    position: absolute;
+    width: 404px;
+    height: 40px;
+    left: 734px;
+    top: 173px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#invest {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70vh;
+    height: 5%;
+    left: 732px;
+    top: 221px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    background: url(img/seta-select.svg) no-repeat center left 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#training {
+    position: absolute;
+    width: 502px;
+    height: 70px;
+    left: 734px;
+    top: 302px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.check2 {
+    position: absolute;
+    width: 422px;
+    height: 156px;
+    left: 735px;
+    top: 384px;
+
+}
+
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
     left: 735px;
-    top: 340px;
+    top: 10cm;
     -webkit-appearance: none;
     appearance: none;
     background: rgba(62, 178, 94, 0.3);
-    margin: 0;
-    place-content: center;
 }
 
 input[type="checkbox"]:checked {
