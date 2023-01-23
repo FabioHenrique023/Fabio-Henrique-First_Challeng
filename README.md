@@ -7,10 +7,10 @@ primeiro desafio - programa de bolsas - compasso tecnologia, esse projeto basead
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `Funcionalidade 1`: Usuário acessa a tela de bem-vindo
+- `Funcionalidade 2`: Usuário tem a opção de selecionar o status da sua conta de investimento
+- `Funcionalidade 3`: Usuário consegue descrever se já teve ou conhece alguém que teve prejuízo com investimento
+- `Funcionalidade 3`: Usuário consegue cadastar o seu nome e e-mail
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
