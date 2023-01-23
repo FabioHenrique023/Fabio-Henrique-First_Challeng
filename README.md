@@ -21,7 +21,7 @@ primeiro desafio - programa de bolsas - compasso tecnologia, esse projeto basead
 - ``Layout baseado no Figma``
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/FabioHenrique023Fabio-Henrique-First_Challeng.git).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/gui-lirasilva/Edige-POO/tree/master/src).
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
