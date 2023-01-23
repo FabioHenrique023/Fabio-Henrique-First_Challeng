@@ -12,6 +12,15 @@ primeiro desafio - programa de bolsas - compasso tecnologia, esse projeto basead
 - `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
 - `Funcionalidade 3`: descrição da funcionalidade 3
 
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``Java 8``
+- ``InteliJ IDEA``
+- ``Paradigma de orientação a objetos``
+
+## 📁 Acesso ao projeto
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/gui-lirasilva/Edige-POO/tree/master/src).
+
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
