@@ -473,9 +473,9 @@ button:disabled {
     -moz-appearance: none;
 }
 
-#training {
+#trainning {
     position: absolute;
-    width: 502px;
+    width: 32%;
     height: 70px;
     left: 734px;
     top: 7.3cm;
@@ -487,13 +487,16 @@ button:disabled {
     color: #000000;
 }
 
+#trainning span {
+    margin-right: 2.5cm;
+}
+
 .check2 {
     position: absolute;
     width: auto;
     height: 156px;
     left: 735px;
     top: 9.3cm;
-
 }
 
 input[type="checkbox"] {
@@ -516,7 +519,7 @@ input[type="checkbox"]:checked {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 28px;
     color: #000000;
-    margin-left: 0.5em;
+    margin-left: 0.7em;
 }
