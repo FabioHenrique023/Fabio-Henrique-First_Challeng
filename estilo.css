@@ -599,3 +599,31 @@ textarea {
 .btn-skip5 p:hover{
     color: black;
 }
+
+/*Desktop 5*/
+
+.pessoais {
+    position: absolute;
+    width: 35%;
+    height: 100px;
+    left: 732px;
+    top: 175px;
+}
+
+.check3 {
+    position: absolute;
+    width: auto;
+    height: 156px;
+    left: 735px;
+    top: 5cm;
+}
+
+input[type="text"] {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 459px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
