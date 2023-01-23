@@ -8,10 +8,10 @@ function validar() {
     if (form.account.value === "") {
         desabilitar = true;
     }
-
     if (desabilitar === true) {
         btn.disabled = true;
     } else {
         btn.disabled = false;
     }
+    return;
 }
