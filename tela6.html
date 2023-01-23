@@ -21,15 +21,15 @@
             <section class="check3">
                 <div>
                     <label for="">Full Name:</label>
-                    <input type="text" placeholder="Nasser Toghiri">
+                    <input type="text" placeholder="Nasser Toghiri" required name="nome" onchange="validarInput()">
                 </div>
                 <div>
                     <label for="">E-mail:</label>
-                    <input type="text" placeholder="N.Toghiri@Gmail.com">
+                    <input type="text" placeholder="N.Toghiri@Gmail.com" required name="mail" onchange="validarInput()">
                 </div>
                 <div>
                     <label for="">Age:</label>
-                    <input type="number" placeholder="-- --">
+                    <input type="number" placeholder="-- --" required name="age" onchange="validarInput()">
                 </div>
             </section>
 
@@ -41,7 +41,7 @@
                         </div>
                     </a>
                     <a href="tela1.html">
-                        <button disabled id="submit" class="submit" type="button">
+                        <button disabled id="submit" class="submit" type="submit">
                             Submit
                         </button>
                     </a>
@@ -51,6 +51,6 @@
 
         </form>
     </div>
-    <script src="tela5.js"></script>
+    <script src="tela6.js"></script>
 </body>
 </html>
